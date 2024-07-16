@@ -13,9 +13,18 @@ const ContextProvider =({children})=>{
         });
     },[]);
 
+    const[categorias, setCategorias]= useState([]);
+    useEffect(()=>{
+        fetch("http://localhost:3500/categorias").
+        then(response=>response.json()).
+        then(data2=>{
+            setCategorias(data2)
+        });
+    },[]);
+
     
     return (
-        <GlobalContext.Provider value={{videos, setVideos}}>
+        <GlobalContext.Provider value={{videos, setVideos, categorias, setCategorias}}>
             {children}
         </GlobalContext.Provider>
     )

@@ -74,11 +74,28 @@
     },
     {
       "id": "10",
-      "titulo": "qe",
-      "imagen": "https://img.youtube.com/vi/x3b72cY3o0M/maxresdefault.jpg",
-      "video": "https://img.youtube.com/vi/x3b72cY3o0M/maxresdefault.jpg",
-      "categoria": "Back end",
-      "descripcion": "asasa"
+      "titulo": "AS",
+      "imagen": "ASD",
+      "video": "ASD",
+      "categoria": "Innovación",
+      "descripcion": "ASDAS"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Front end",
+      "color": "blue"
+    },
+    {
+      "id": "2",
+      "nombre": "Back end",
+      "color": "green"
+    },
+    {
+      "id": "3",
+      "nombre": "Innovación y gestión",
+      "color": "yellow"
     }
   ]
 }

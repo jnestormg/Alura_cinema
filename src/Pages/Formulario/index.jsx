@@ -67,14 +67,16 @@ const Formulario = () => {
 
         console.log(datos);
 
-
+        reset();
     }
 
-const reset = () =>{
-    if(formRef.current){
-        formRef.current.reset();
+    const reset = () => {
+      setTitulo("")
+      setCategoria("")
+      setImagen("")
+      setVideo("")
+      setDescripcion("")
     }
-}
 
     return (
         <>
@@ -88,7 +90,7 @@ const reset = () =>{
                         required
                         valor={titulo}
                         setValor={setTitulo}
-                        />
+                    />
 
                     <Label>Imagen</Label>
                     <Input type="text"
