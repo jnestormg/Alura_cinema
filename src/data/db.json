@@ -1,0 +1,84 @@
+{
+  "videos": [
+    {
+      "id": "3",
+      "titulo": "¿Sabes cómo organizar tu rutina de estudio? Descubre aquí",
+      "categoria": "Inovación y gestión",
+      "imagen": "https://img.youtube.com/vi/3mDnrL8YVaA/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=3mDnrL8YVaA",
+      "descripcion": "¿Sabes cómo organizar tu rutina de estudio? En este video vamos a ver la importancia de tener un horario de estudio que se ajuste a la disponibilidad real de tiempo de cada estudiante, así como la relevancia de la disciplina en seguir un plan de estudio dentro de los procesos de aprendizaje."
+    },
+    {
+      "id": "4",
+      "titulo": "Consejos de CSS FlexBox para comenzar",
+      "categoria": "Front end",
+      "imagen": "https://img.youtube.com/vi/EB4vWLzfVcI/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=EB4vWLzfVcI",
+      "descripcion": "En esta nueva edición de Alura + aprenderemos un poco más sobre los primeros pasos para empezar a trabajar con Flexbox en CSS y conoceremos las principales etiquetas y cómo aplicarlas."
+    },
+    {
+      "id": "5",
+      "titulo": "¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido!",
+      "categoria": "Front end",
+      "imagen": "https://img.youtube.com/vi/MXPhyN5t0uQ/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=MXPhyN5t0uQ",
+      "descripcion": "En esta nueva edición de Alura + aprenderemos un poco más sobre los primeros pasos para empezar a trabajar con Flexbox en CSS y conoceremos las principales etiquetas y cómo aplicarlas."
+    },
+    {
+      "id": "6",
+      "titulo": "Equipo Front End",
+      "categoria": "Front end",
+      "imagen": "https://img.youtube.com/vi/rpvrLaBQwgg/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "descripcion": "En este video, Jeanmarie Quijada, instructora Front End en Alura Latam te explica qué hace el equipo de Front End."
+    },
+    {
+      "id": "7",
+      "titulo": "Bucles y Bucles Anidados en Javascript ",
+      "categoria": "Back end",
+      "imagen": "https://img.youtube.com/vi/FEdqGdtZuwc/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=FEdqGdtZuwc",
+      "descripcion": "En este video, la instructora Génesys Rondón nos explica como aplicar Bucles utilizando como ejemplo un calendario."
+    },
+    {
+      "id": "8",
+      "titulo": "Explorando el poder del Back-End en el Desarrollo Web",
+      "categoria": "Back end",
+      "imagen": "https://img.youtube.com/vi/Z024LSCMqFk/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=Z024LSCMqFk",
+      "descripcion": "¡Videos nuevos todos los miércoles! A las 6pm México * 7pm Colombia * 8pm Bolivia * 9pm Argentina/Chile"
+    },
+    {
+      "id": "9",
+      "titulo": "¿Qué son las Soft Skills?",
+      "categoria": "Inovación y gestión",
+      "imagen": "https://img.youtube.com/vi/vhwspfvI52k/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=vhwspfvI52k",
+      "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día."
+    },
+    {
+      "id": "1",
+      "titulo": "Currículum, qué incluir y qué dejar fuera",
+      "categoria": "Inovación y gestión",
+      "imagen": "https://img.youtube.com/vi/nzVdLC_QpnA/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=nzVdLC_QpnA",
+      "descripcion": "¿Estás preparando tu currículum y no sabes qué información es realmente importante? En este video, te guiaré paso a paso sobre qué elementos son esenciales para incluir en tu CV y qué detalles es mejor dejar fuera. Aprenderás a destacar tus habilidades y experiencias relevantes para captar la atención de los reclutadores y aumentar tus oportunidades de conseguir el trabajo que deseas."
+    },
+    {
+      "id": "2",
+      "titulo": "Inmersión Java: Tus primeros pasos con Java",
+      "categoria": "Back end",
+      "imagen": "https://img.youtube.com/vi/C6ohBxRSVj4/maxresdefault.jpg",
+      "video": "https://www.youtube.com/live/C6ohBxRSVj4",
+      "descripcion": "Regístrate ahora a nuestra Inmersión Java, ¡Dos clases con increíbles que te ayudarán a dar el siguiente paso en tus estudios y tu carrera. Las clases serán los días 30 de abril y 02 de mayo."
+    },
+    {
+      "id": "10",
+      "titulo": "qe",
+      "imagen": "https://img.youtube.com/vi/x3b72cY3o0M/maxresdefault.jpg",
+      "video": "https://img.youtube.com/vi/x3b72cY3o0M/maxresdefault.jpg",
+      "categoria": "Back end",
+      "descripcion": "asasa"
+    }
+  ]
+}
