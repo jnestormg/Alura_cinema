@@ -71,14 +71,6 @@
       "imagen": "https://img.youtube.com/vi/C6ohBxRSVj4/maxresdefault.jpg",
       "video": "https://www.youtube.com/live/C6ohBxRSVj4",
       "descripcion": "Regístrate ahora a nuestra Inmersión Java, ¡Dos clases con increíbles que te ayudarán a dar el siguiente paso en tus estudios y tu carrera. Las clases serán los días 30 de abril y 02 de mayo."
-    },
-    {
-      "id": "10",
-      "titulo": "AS",
-      "imagen": "ASD",
-      "video": "ASD",
-      "categoria": "Innovación",
-      "descripcion": "ASDAS"
     }
   ],
   "categorias": [

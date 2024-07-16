@@ -29,7 +29,7 @@ color: white;
 `
 
 const Modal = (props) => {
-    
+
     const { videos } = useContext(GlobalContext);
     console.log("tamaño" + videos.length);
     console.log(props.id);
@@ -87,49 +87,50 @@ const Modal = (props) => {
 
 
     return (
+        <>
+        <button>x</button>
+            <Dialog open={props.opcion}>
 
-        <Dialog open={props.opcion}>
-            <button >X</button>
-            <form method="dialog" onSubmit={envio}>
-                <Titulo>Editar Card</Titulo>
-                <Label >Titulo</Label>
-                <Input type="text"
-                    placeholder="Ingrese un titulo"
-                    required
-                    valor={titulo}
-                    setValor={setTitulo}
-                />
+                <form method="dialog" onSubmit={envio}>
+                    <Titulo>Editar Card</Titulo>
+                    <Label >Titulo</Label>
+                    <Input type="text"
+                        placeholder="Ingrese un titulo"
+                        required
+                        valor={titulo}
+                        setValor={setTitulo}
+                    />
 
-                <Label>Imagen</Label>
-                <Input type="text"
-                    placeholder="Ingrese la url de la imagen"
-                    required
-                    valor={imagen}
-                    setValor={setImagen}
-                />
+                    <Label>Imagen</Label>
+                    <Input type="text"
+                        placeholder="Ingrese la url de la imagen"
+                        required
+                        valor={imagen}
+                        setValor={setImagen}
+                    />
 
-                <Label>Video</Label>
-                <Input type="text"
-                    placeholder="Ingrese la url del video"
-                    required
-                    valor={video}
-                    setValor={setVideo}
-                />
-                <Label>Categoria</Label>
-                <Opciones opciones={options} required
-                    valor={categoria}
-                    setValor={setCategoria} />
-                <Label>Descripción</Label>
-                <TextArea
-                    placeholder="¿De que se trata este video?"
-                    valor={descripcion}
-                    setValor={setDescripcion}></TextArea>
-                <Boton activo={false}>Guardar</Boton>
-                <Boton activo={false} >Limpiar</Boton>
+                    <Label>Video</Label>
+                    <Input type="text"
+                        placeholder="Ingrese la url del video"
+                        required
+                        valor={video}
+                        setValor={setVideo}
+                    />
+                    <Label>Categoria</Label>
+                    <Opciones opciones={options} required
+                        valor={categoria}
+                        setValor={setCategoria} />
+                    <Label>Descripción</Label>
+                    <TextArea
+                        placeholder="¿De que se trata este video?"
+                        valor={descripcion}
+                        setValor={setDescripcion}></TextArea>
+                    <Boton activo={false}>Guardar</Boton>
+                    <Boton activo={false} >Limpiar</Boton>
 
-            </form>
-        </Dialog>
-
+                </form>
+            </Dialog>
+        </>
     )
 }
 
