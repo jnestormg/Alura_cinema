@@ -11,10 +11,10 @@
     {
       "id": "5",
       "titulo": "¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido!",
-      "categoria": "Front end",
       "imagen": "https://img.youtube.com/vi/MXPhyN5t0uQ/maxresdefault.jpg",
       "video": "https://www.youtube.com/watch?v=MXPhyN5t0uQ",
-      "descripcion": "En esta nueva edición de Alura + aprenderemos un poco más sobre los primeros pasos para empezar a trabajar con Flexbox en CSS y conoceremos las principales etiquetas y cómo aplicarlas."
+      "categoria": "Front end",
+      "descripcion": "En esta nueva edición de Alura + aprenderemos un poco más sobre los primeros pasos para empezar a trabajar con Flexbox en CSS y conoceremos las principales etiquetas y cómo aplicarlas. "
     },
     {
       "id": "6",

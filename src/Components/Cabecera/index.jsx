@@ -20,12 +20,16 @@ const Logotipo = styled.img`
     width: 168px;
     height: 40px;
     margin: 10px;
+    margin-top: 30px;
+
 
 `
 
 const ContenedorBotones = styled.div`
 display: flex;
 gap: 20px;
+margin-top: 30px;
+margin-right: 10px;
 `
 
 const Cabecera = () => {
