@@ -32,7 +32,15 @@ const Cards = () => {
                     {
                         videos.map((vid) => {
                             console.log(vid.video)
-                            return <Card {...videos} key={vid.id} foto={vid.imagen} video={vid.video} id={vid.id} />
+                            return <Card {...videos} 
+                            key={vid.id}
+                             foto={vid.imagen} 
+                             video={vid.video}
+                              id={vid.id}
+                              titulo={vid.titulo}
+                              descripcion={vid.descripcion}
+                              categoria={vid.categoria}
+                              />
 
 
 

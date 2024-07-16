@@ -37,11 +37,11 @@ const Modal = (props) => {
     console.log("tamaño" + videos.length);
     console.log(props.id);
 
-    const [titulo, setTitulo] = useState("")
-    const [imagen, setImagen] = useState("")
-    const [video, setVideo] = useState("")
-    const [categoria, setCategoria] = useState("")
-    const [descripcion, setDescripcion] = useState("")
+    const [titulo, setTitulo] = useState(props.titulo)
+    const [imagen, setImagen] = useState(props.foto)
+    const [video, setVideo] = useState(props.video)
+    const [categoria, setCategoria] = useState(props.categoria)
+    const [descripcion, setDescripcion] = useState(props.descripcion)
 
 
     const options = [
@@ -75,7 +75,7 @@ const Modal = (props) => {
             }).then(response => response.json());
 
         console.log(datos);
-        reset();
+            close();
 
     }
 

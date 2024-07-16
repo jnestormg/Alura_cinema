@@ -1,14 +1,6 @@
 {
   "videos": [
     {
-      "id": "3",
-      "titulo": "¿Sabes cómo organizar tu rutina de estudio? Descubre aquí",
-      "categoria": "Inovación y gestión",
-      "imagen": "https://img.youtube.com/vi/3mDnrL8YVaA/maxresdefault.jpg",
-      "video": "https://www.youtube.com/watch?v=3mDnrL8YVaA",
-      "descripcion": "¿Sabes cómo organizar tu rutina de estudio? En este video vamos a ver la importancia de tener un horario de estudio que se ajuste a la disponibilidad real de tiempo de cada estudiante, así como la relevancia de la disciplina en seguir un plan de estudio dentro de los procesos de aprendizaje."
-    },
-    {
       "id": "4",
       "titulo": "Consejos de CSS FlexBox para comenzar",
       "categoria": "Front end",
@@ -26,10 +18,10 @@
     },
     {
       "id": "6",
-      "titulo": "Equipo Front End",
-      "categoria": "Front end",
+      "titulo": "Equipo Front Ends",
       "imagen": "https://img.youtube.com/vi/rpvrLaBQwgg/maxresdefault.jpg",
       "video": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "categoria": "Front end",
       "descripcion": "En este video, Jeanmarie Quijada, instructora Front End en Alura Latam te explica qué hace el equipo de Front End."
     },
     {
@@ -47,14 +39,6 @@
       "imagen": "https://img.youtube.com/vi/Z024LSCMqFk/maxresdefault.jpg",
       "video": "https://www.youtube.com/watch?v=Z024LSCMqFk",
       "descripcion": "¡Videos nuevos todos los miércoles! A las 6pm México * 7pm Colombia * 8pm Bolivia * 9pm Argentina/Chile"
-    },
-    {
-      "id": "9",
-      "titulo": "¿Qué son las Soft Skills?",
-      "categoria": "Inovación y gestión",
-      "imagen": "https://img.youtube.com/vi/vhwspfvI52k/maxresdefault.jpg",
-      "video": "https://www.youtube.com/watch?v=vhwspfvI52k",
-      "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día."
     },
     {
       "id": "1",

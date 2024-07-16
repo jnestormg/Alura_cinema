@@ -41,7 +41,7 @@ color: white;
 }
 `
 
-const Card = ({ foto, video, id }) => {
+const Card = ({ foto, video, id, titulo, categoria, descripcion }) => {
 
     function deleteData(Id) {
 
@@ -76,7 +76,7 @@ const Card = ({ foto, video, id }) => {
                    <Link onClick={abrir} ><TextoCard >Editar</TextoCard></Link> 
                 </Footer>
             </Figure>
-            <Modal opcion={modal} Id={id}/>
+            <Modal opcion={modal} Id={id} titulo={titulo} video={video} foto={foto} descripcion={descripcion} categoria={categoria}/>
         </>
     )
 }
