@@ -3,10 +3,10 @@
     {
       "id": "4",
       "titulo": "Consejos de CSS FlexBox para comenzar",
-      "categoria": "Front end",
       "imagen": "https://img.youtube.com/vi/EB4vWLzfVcI/maxresdefault.jpg",
       "video": "https://www.youtube.com/watch?v=EB4vWLzfVcI",
-      "descripcion": "En esta nueva edición de Alura + aprenderemos un poco más sobre los primeros pasos para empezar a trabajar con Flexbox en CSS y conoceremos las principales etiquetas y cómo aplicarlas."
+      "categoria": "Front end",
+      "descripcion": "En esta nueva edición de Alura + aprenderemos un poco más sobre los primeros pasos para empezar a trabajar con Flexbox en CSS y conoceremos las principales etiquetas y cómo aplicarlas. "
     },
     {
       "id": "5",

@@ -27,8 +27,23 @@ font-size: 40px;
 color: white;
 `
 
- const Label=styled.label`
+const Label = styled.label`
  color: white ;
+ `
+
+ const BotonCerrar=styled.button`
+ width: 30px;
+ height: 30px;
+ border: 2px solid white;
+ border-radius: 50%;
+ color: white;
+ background: #03122F;
+
+ &:hover{
+    background: white;
+    color: black;
+ }
+
  `
 
 const Modal = (props) => {
@@ -75,8 +90,7 @@ const Modal = (props) => {
             }).then(response => response.json());
 
         console.log(datos);
-            close();
-
+        window.location.reload()
     }
 
     const reset = () => {
@@ -97,7 +111,7 @@ const Modal = (props) => {
     return (
         <>
             <Dialog open={props.opcion} ref={dialogRef}>
-                <button onClick={() => close()}>x</button>
+                <BotonCerrar onClick={() => close()}>x</BotonCerrar>
 
                 <form method="dialog" onSubmit={envio}>
                     <Titulo>Editar Card</Titulo>
