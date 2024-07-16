@@ -16,9 +16,7 @@ font-family: "Source Code Pro", monospace;
     background: blue;
     color:white;
 }
-&:active{
-    background: red;
-}
+
 
 `
 const Boton = ({ children, activo }) => {
