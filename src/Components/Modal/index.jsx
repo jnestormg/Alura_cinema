@@ -4,7 +4,7 @@ import Boton from "../Boton";
 import TextArea from "../TextArea";
 import Opciones from "../Opciones";
 import Label from "../Label";
-import { useContext, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import { GlobalContext } from "../Context";
 
 const OverLay = styled.div`
@@ -84,12 +84,17 @@ const Modal = (props) => {
         setDescripcion("")
     }
 
+    const dialogRef = useRef(null)
 
+    const close = () => {
+        console.log(dialogRef.current);
+        dialogRef.current.close();
+    }
 
     return (
         <>
-        <button>x</button>
-            <Dialog open={props.opcion}>
+            <Dialog open={props.opcion} ref={dialogRef}>
+                <button onClick={() => close()}>x</button>
 
                 <form method="dialog" onSubmit={envio}>
                     <Titulo>Editar Card</Titulo>
