@@ -3,7 +3,6 @@ import Input from "../Inputs";
 import Boton from "../Boton";
 import TextArea from "../TextArea";
 import Opciones from "../Opciones";
-import Label from "../Label";
 import { useContext, useRef, useState } from "react";
 import { GlobalContext } from "../Context";
 
@@ -27,6 +26,10 @@ const Titulo = styled.h2`
 font-size: 40px;
 color: white;
 `
+
+ const Label=styled.label`
+ color: white ;
+ `
 
 const Modal = (props) => {
 
